@@ -35,10 +35,6 @@ namespace Blog.WordTemplateBookmark
 				if (textWidth > tableWidth)
 					UpdateTableWidth(table, textWidth);
 			}
-			//catch (Exception ex)
-			//{
-			//	document?.Close();
-			//}
 			finally
 			{
 				document?.Close();
